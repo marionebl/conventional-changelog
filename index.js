@@ -1,5 +1,5 @@
 'use strict';
-var conventionalChangelogCore = require('conventional-changelog-core');
+var conventionalChangelogCore = require('@marionebl/conventional-changelog-core');
 
 function conventionalChangelog(options, context, gitRawCommitsOpts, parserOpts, writerOpts) {
   options.warn = options.warn || function() {};
